@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Hero from "../components/Hero";
 
-const Home = () => {
+const Home = ({ onLayout }) => {
     return (
-        <View className="bg-gray-100">
-            <Text className="text-4xl">Testing 123</Text>
+        <View onLayout={onLayout}>
+            <Hero />
         </View>
     );
 };
