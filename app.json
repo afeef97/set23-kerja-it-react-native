@@ -1,11 +1,20 @@
 {
     "expo": {
-        "scheme": "template",
+        "scheme": "kerja-it",
         "web": {
             "bundler": "metro"
         },
         "plugins": ["expo-router"],
-        "name": "nativewind-template",
-        "slug": "nativewind-template"
+        "name": "native-kerja-it-clone",
+        "slug": "native-kerja-it-clone",
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "9ea5cb65-85c3-49d0-8f09-90b7eba3cfbb"
+            }
+        },
+        "owner": "afeef97"
     }
 }
