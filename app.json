@@ -1,0 +1,11 @@
+{
+    "expo": {
+        "scheme": "template",
+        "web": {
+            "bundler": "metro"
+        },
+        "plugins": ["expo-router"],
+        "name": "nativewind-template",
+        "slug": "nativewind-template"
+    }
+}
