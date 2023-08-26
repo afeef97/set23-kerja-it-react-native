@@ -1,11 +1,21 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Pressable } from "react-native";
+import Home from "../src/screens/Home";
+import { Stack } from "expo-router";
+import HamburgerMenu from "../src/components/shared/HamburgerMenu";
+import HeaderTitle from "../src/components/shared/HeaderTitle";
 
 const App = () => {
     return (
-        <View className="justify-center items-center min-h-screen">
-            <Text className="text-2xl">Hello World</Text>
-        </View>
+        <>
+            <Stack.Screen
+                options={{
+                    headerTitle: () => <HeaderTitle />,
+                    headerRight: () => <HamburgerMenu />,
+                }}
+            />
+            <Home />
+        </>
     );
 };
 
