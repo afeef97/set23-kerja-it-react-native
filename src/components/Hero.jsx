@@ -1,7 +1,7 @@
-import { TouchableHighlight, View } from "react-native";
+import { View } from "react-native";
 import React from "react";
 import TextInconsolata from "./shared/TextInconsolata";
-import { Link } from "expo-router";
+import LinkButton from "./shared/LinkButton";
 
 const Hero = () => {
     return (
@@ -17,30 +17,21 @@ const Hero = () => {
                 </TextInconsolata>
             </View>
 
-            <View className="items-center gap-3 mt-6 w-80">
-                <Link href="/auth/register" asChild>
-                    <TouchableHighlight
-                        className="bg-black rounded py-3 px-2 w-60 md:w-72"
-                        activeOpacity={0.6}
-                        underlayColor="#314155">
-                        <TextInconsolata
-                            textStyle="text-base text-white text-center"
-                            boldLevel="bold">
-                            🎯 I want companies to find me
-                        </TextInconsolata>
-                    </TouchableHighlight>
-                </Link>
-                <Link href="/jobs" asChild>
-                    <TouchableHighlight
-                        className="border border-gray-300 rounded py-3 px-2 w-60 md:w-72"
-                        underlayColor="#fff">
-                        <TextInconsolata
-                            textStyle="text-base text-center"
-                            boldLevel="bold">
-                            🔍 Search Jobs
-                        </TextInconsolata>
-                    </TouchableHighlight>
-                </Link>
+            <View className="items-center justify-around mt-6 w-80">
+                <LinkButton
+                    link="/auth/register"
+                    variant="solid"
+                    boldLevel="bold"
+                    textStyle="text-white text-base text-center">
+                    🎯 I want companies to find me
+                </LinkButton>
+                <LinkButton
+                    link="/jobs"
+                    variant="outline"
+                    boldLevel="bold"
+                    textStyle="text-base text-center">
+                    🔍 Search Jobs
+                </LinkButton>
             </View>
         </View>
     );
