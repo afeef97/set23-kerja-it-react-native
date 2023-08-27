@@ -168,6 +168,27 @@ const Job = () => {
                         )
                     }
                 </View>
+
+                <TouchableHighlight
+                    className="bg-blue-600 rounded py-3 px-2 w-full mt-8 mb-1"
+                    underlayColor="#39aaff">
+                    <TextInconsolata
+                        textStyle="text-base text-center text-white"
+                        boldLevel="bold">
+                        Apply Now 🚀
+                    </TextInconsolata>
+                </TouchableHighlight>
+
+                <TextInconsolata textStyle="text-sm text-gray-500">
+                    Please mention that you found the job on Kerja-IT.com, this
+                    helps us get more companies to post here. Thanks.
+                </TextInconsolata>
+            </View>
+
+            <View className="w-3/4 mx-auto py-12">
+                <TextInconsolata textStyle="text-base text-center">
+                    Applied but no response? Drop your resume here 📥
+                </TextInconsolata>
             </View>
         </ScrollView>
     );
