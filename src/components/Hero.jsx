@@ -32,7 +32,7 @@ const Hero = () => {
                 </Link>
                 <Link href="/jobs" asChild>
                     <TouchableHighlight
-                        className="border border-gray-400 rounded py-3 px-2 w-60 md:w-72"
+                        className="border border-gray-300 rounded py-3 px-2 w-60 md:w-72"
                         underlayColor="#fff">
                         <TextInconsolata
                             textStyle="text-base text-center"
