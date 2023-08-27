@@ -49,7 +49,7 @@ const JobCard = ({ title, company, posted, location, workType }) => {
                 </View>
             </View>
 
-            <TextInconsolata textStyle="text-base text-gray-500">
+            <TextInconsolata textStyle="text-base text-gray-500 mt-3">
                 Added on {posted}
             </TextInconsolata>
         </View>
