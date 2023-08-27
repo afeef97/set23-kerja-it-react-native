@@ -4,6 +4,7 @@ import { Link, useLocalSearchParams } from "expo-router";
 import JOB_DATA from "../../src/assets/data/job-directory-data.json";
 import TextInconsolata from "../../src/components/shared/TextInconsolata";
 import { Octicons } from "@expo/vector-icons";
+import Footer from "../components/Footer";
 
 const Job = () => {
     const params = useLocalSearchParams();
@@ -190,6 +191,8 @@ const Job = () => {
                     Applied but no response? Drop your resume here 📥
                 </TextInconsolata>
             </View>
+
+            <Footer />
         </ScrollView>
     );
 };

@@ -4,6 +4,7 @@ import { Link } from "expo-router";
 import Hero from "../components/Hero";
 import TextInconsolata from "../components/shared/TextInconsolata";
 import JobList from "../components/JobList";
+import Footer from "../components/Footer";
 
 const Home = ({ onLayout }) => {
     return (
@@ -19,6 +20,8 @@ const Home = ({ onLayout }) => {
                 </Link>
                 <JobList />
             </View>
+
+            <Footer />
         </ScrollView>
     );
 };

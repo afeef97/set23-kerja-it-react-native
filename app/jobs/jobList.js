@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "../../src/components/Header";
 import { View } from "react-native";
 import TextInconsolata from "../../src/components/shared/TextInconsolata";
+import Footer from "../../src/components/Footer";
 
 const Jobs = () => {
     return (
         <>
-            <Header />
             <View>
                 <TextInconsolata>Jobs</TextInconsolata>
             </View>
+
+            <Footer />
         </>
     );
 };
