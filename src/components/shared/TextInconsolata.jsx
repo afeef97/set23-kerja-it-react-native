@@ -22,8 +22,8 @@ const TextInconsolata = ({ textStyle, boldLevel, children }) => {
         case "bold":
             fontStyle = `${textStyle} font-['Bold']`;
             break;
-        case "extrabold":
-            fontStyle = `${textStyle} font-['ExtraBold']`;
+        case "bolder":
+            fontStyle = `${textStyle} font-['Bolder']`;
             break;
         case "black":
             fontStyle = `${textStyle} font-['Black']`;
