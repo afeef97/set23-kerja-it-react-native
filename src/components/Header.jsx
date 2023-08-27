@@ -7,7 +7,8 @@ const Header = () => {
     return (
         <Stack.Screen
             options={{
-                headerTitle: () => <HeaderTitle />,
+                headerLeft: () => <HeaderTitle />,
+                headerTitle: () => null,
                 headerRight: () => <HamburgerMenu />,
             }}
         />
