@@ -51,7 +51,7 @@ const NavMenu = () => {
                     💌 Get Job Alerts
                 </LinkButton>
                 <LinkButton
-                    link="/"
+                    link="auth/login"
                     variant="ghost"
                     textStyle="text-center text-base"
                     boldLevel="bold"

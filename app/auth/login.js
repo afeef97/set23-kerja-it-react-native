@@ -1,10 +1,10 @@
 import React from "react";
-import Register from "../../src/screens/Register";
+import Login from "../../src/screens/Login";
 
 const Jobs = () => {
     return (
         <>
-            <Register />
+            <Login />
         </>
     );
 };
