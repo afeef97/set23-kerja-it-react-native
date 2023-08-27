@@ -13,6 +13,7 @@ export default function Layout() {
                 headerTitleStyle: {
                     fontWeight: "bold",
                 },
+                animation: "slide_from_right",
             }}
         />
     );
