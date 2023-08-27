@@ -1,4 +1,4 @@
-import { Alert, TouchableHighlight, View } from "react-native";
+import { TouchableHighlight, View } from "react-native";
 import React from "react";
 import TextInconsolata from "./shared/TextInconsolata";
 import { Link } from "expo-router";
