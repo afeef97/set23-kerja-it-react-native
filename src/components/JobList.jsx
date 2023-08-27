@@ -11,7 +11,10 @@ const JobList = () => {
                 <Link
                     key={job.id}
                     className="w-full bg-white my-1 p-4 rounded-xl border border-gray-300"
-                    href={`/jobs/${job.id}`}>
+                    href={{
+                        pathname: `jobs/[job]`,
+                        params: { job: `${job.id}` },
+                    }}>
                     <JobCard
                         title={job.job}
                         company={job.company}

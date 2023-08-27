@@ -59,7 +59,7 @@ const NavMenu = () => {
                     ☁️ Login
                 </LinkButton>
                 <LinkButton
-                    link="/auth/register"
+                    link="auth/register"
                     variant="solid"
                     textStyle="text-center text-base text-white"
                     boldLevel="bold"

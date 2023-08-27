@@ -1,4 +1,4 @@
-import { Alert, Text } from "react-native";
+import { Text } from "react-native";
 import React from "react";
 
 const TextInconsolata = ({ textStyle, boldLevel, children }) => {
